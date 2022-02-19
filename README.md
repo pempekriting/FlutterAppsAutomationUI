@@ -15,7 +15,8 @@ What things you need to install:
 
     1. Run script `./download-apk.sh` to get the apk. If it's not working, you can download it manually and drop it into folder `src/test/resources/apk`
     2. Running Appium Server with command `appium -a 127.0.0.1 -p 4723`.
-    3. Open the project using any IDE (Eclipse, IDEA, etc).
-    4. Download sources Maven and update the project.
-    5. Running the project using command `mvn clean test`.
-    6. Report will automatically generate after test is completely finish. Check on the `report` folder.
+    3. Open your Android emulator.
+    4. Open the project using any IDE (Eclipse, IDEA, etc).
+    5. Download sources Maven and update the project.
+    6. Running the project using command `mvn clean test`.
+    7. Report will automatically generate after test is completely finish. Check on the `report` folder.
